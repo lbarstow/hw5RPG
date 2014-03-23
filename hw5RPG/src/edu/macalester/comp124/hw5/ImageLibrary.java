@@ -12,7 +12,7 @@ public class ImageLibrary
 	String imageCatalogFileName = "hw5RPG/maps/image names.txt";
 	String imageDirectory = "hw5RPG/images/";
 
-	public HashMap<String, Image> images = new HashMap<>();
+	public HashMap<String, Image> images = new HashMap<String, Image>();
 
 	public ImageLibrary()
 	{

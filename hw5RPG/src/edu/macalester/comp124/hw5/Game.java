@@ -15,7 +15,7 @@ public class Game
 	//--- A list of all the agents in the game (player, NPCs, monsters, etc.)
 	//--- We need to know this so we know who to draw and so that we can ask
 	//---	each turn what they want to do
-	public List<Agent> agents = new LinkedList<>();
+	public List<Agent> agents = new LinkedList<Agent>();
 
 	public Game()
 	{
